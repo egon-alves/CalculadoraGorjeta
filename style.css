@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+:root {
+    --primary-color: #07090D;
+    --secundary-color: #010D00; 
+    --tertiary-color: #F2F2F0;
+    --quarternary-color: #8C8B88;
+    --quinary-color: #BFBFBD;
+}
+
+body {
+    background-color: var(--quinary-color);
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#container {
+    height: 520px;
+    width: 360px ;
+    margin: 100px auto;
+    background-color: var(--tertiary-color);
+    box-shadow: 0 3px 3px gray;
+    border-radius: 20px ;
+}
+
+.title {
+    background-color: var(--quarternary-color);
+    color: var(--secundary-color);
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 20px 20px 0px 0px;
+    padding: 20px;
+}
+
+.tipsForm { 
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.formInput {
+   background-color: white;
+   width: 50px;
+   padding: 5px;
+}
+
+.formInput:focus {
+    border-radius: 2px;
+    outline: none;
+
+}
+
+.formSelect {
+    width: 180px;
+    font-size: 0.9em;
+    padding: 5px;
+}
+
+.formSubmit {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+     margin: 2px auto;
+     width: 180px;
+     height: 2em;
+     border-radius: 5px;
+     font-size: 1em;
+     background-color:var( --quinary-color) ;
+     color: var(--primary-color);
+}
+
+.formSubmit:focus {
+    background-color: var(--secundary-color);
+    color: var(--tertiary-color);
+}
+
+#totalTip {
+    font-size: 1.2em;
+    margin-top: 10px;
+    text-align: center;
+    padding: 3px;
+}
+
+
+
+
+
+
